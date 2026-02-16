@@ -1,0 +1,10 @@
+{
+  "name": "002-calendar-meeting-scheduler",
+  "title": "Smart Meeting Scheduler",
+  "skills": ["meeting-scheduler"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "030-health-faq-bot",
+  "title": "Healthcare Facility FAQ Bot",
+  "skills": ["health-faq"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

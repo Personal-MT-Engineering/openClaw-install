@@ -1,0 +1,10 @@
+{
+  "name": "076-lead-qualifier",
+  "title": "Inbound Lead Scoring Bot",
+  "skills": ["lead-qualifier"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

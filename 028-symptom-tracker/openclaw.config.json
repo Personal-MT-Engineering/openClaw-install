@@ -1,0 +1,10 @@
+{
+  "name": "028-symptom-tracker",
+  "title": "Daily Symptom & Vital Tracker",
+  "skills": ["symptom-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

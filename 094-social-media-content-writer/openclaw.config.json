@@ -1,0 +1,10 @@
+{
+  "name": "094-social-media-content-writer",
+  "title": "Social Media Post Writer",
+  "skills": ["social-writer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

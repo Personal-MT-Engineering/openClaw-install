@@ -1,0 +1,10 @@
+{
+  "name": "092-newsletter-writer",
+  "title": "Newsletter Content Curator",
+  "skills": ["newsletter-writer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

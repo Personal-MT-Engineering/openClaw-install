@@ -1,0 +1,10 @@
+{
+  "name": "031-clinical-trial-monitor",
+  "title": "Trial Participant Follow-Up",
+  "skills": ["trial-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

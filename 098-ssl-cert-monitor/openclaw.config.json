@@ -1,0 +1,10 @@
+{
+  "name": "098-ssl-cert-monitor",
+  "title": "SSL Certificate Expiry Monitor",
+  "skills": ["ssl-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

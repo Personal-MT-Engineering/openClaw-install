@@ -1,0 +1,10 @@
+{
+  "name": "070-customer-onboarding",
+  "title": "Customer Product Onboarding",
+  "skills": ["customer-onboarding"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

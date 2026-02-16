@@ -1,0 +1,10 @@
+{
+  "name": "006-hr-onboarding-bot",
+  "title": "Employee Onboarding Automation",
+  "skills": ["hr-onboarding"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

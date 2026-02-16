@@ -1,0 +1,10 @@
+{
+  "name": "063-nda-generator",
+  "title": "NDA & Legal Document Generator",
+  "skills": ["nda-generator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

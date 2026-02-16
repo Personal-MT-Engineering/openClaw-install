@@ -1,0 +1,10 @@
+{
+  "name": "100-backup-verifier",
+  "title": "Backup Integrity Verifier",
+  "skills": ["backup-verifier"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

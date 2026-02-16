@@ -1,0 +1,10 @@
+{
+  "name": "065-ticket-triage",
+  "title": "Support Ticket Auto-Triage",
+  "skills": ["ticket-triage"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

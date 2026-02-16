@@ -1,0 +1,10 @@
+{
+  "name": "007-office-inventory-manager",
+  "title": "Office Supply Inventory Tracker",
+  "skills": ["inventory-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

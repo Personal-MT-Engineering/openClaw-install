@@ -1,0 +1,10 @@
+{
+  "name": "057-crypto-portfolio-tracker",
+  "title": "Crypto Portfolio Tracker",
+  "skills": ["crypto-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "093-music-discovery-curator",
+  "title": "Music Discovery & Playlist",
+  "skills": ["music-curator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

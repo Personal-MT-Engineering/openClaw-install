@@ -1,0 +1,10 @@
+{
+  "name": "088-reading-list-manager",
+  "title": "Reading List & Book Summary",
+  "skills": ["reading-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

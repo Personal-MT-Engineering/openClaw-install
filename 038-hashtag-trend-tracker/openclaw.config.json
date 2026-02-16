@@ -1,0 +1,10 @@
+{
+  "name": "038-hashtag-trend-tracker",
+  "title": "Hashtag & Topic Trend Tracker",
+  "skills": ["hashtag-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

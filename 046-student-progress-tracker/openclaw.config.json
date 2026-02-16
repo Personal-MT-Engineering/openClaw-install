@@ -1,0 +1,10 @@
+{
+  "name": "046-student-progress-tracker",
+  "title": "Student Progress & Parent Comm",
+  "skills": ["progress-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

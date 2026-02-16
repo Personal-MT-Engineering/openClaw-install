@@ -1,0 +1,10 @@
+{
+  "name": "095-server-monitor",
+  "title": "Server Health Monitor",
+  "skills": ["server-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

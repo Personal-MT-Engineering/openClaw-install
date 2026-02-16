@@ -1,0 +1,10 @@
+{
+  "name": "039-brand-mention-monitor",
+  "title": "Brand Mention Sentiment Monitor",
+  "skills": ["brand-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

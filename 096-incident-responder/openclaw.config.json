@@ -1,0 +1,10 @@
+{
+  "name": "096-incident-responder",
+  "title": "Incident Response Runbook",
+  "skills": ["incident-responder"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "073-order-tracker",
+  "title": "Order Status & Shipping Bot",
+  "skills": ["order-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

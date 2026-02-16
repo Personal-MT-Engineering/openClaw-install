@@ -1,0 +1,10 @@
+{
+  "name": "068-feedback-analyzer",
+  "title": "Customer Feedback Analyzer",
+  "skills": ["feedback-analyzer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

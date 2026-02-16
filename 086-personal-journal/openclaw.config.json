@@ -1,0 +1,10 @@
+{
+  "name": "086-personal-journal",
+  "title": "Daily Journaling Assistant",
+  "skills": ["journal-assistant"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

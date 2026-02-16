@@ -1,0 +1,10 @@
+{
+  "name": "040-email-campaign-manager",
+  "title": "Email Marketing Campaign Manager",
+  "skills": ["email-campaign"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

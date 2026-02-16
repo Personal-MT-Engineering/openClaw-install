@@ -1,0 +1,10 @@
+{
+  "name": "055-budget-tracker",
+  "title": "Budget Variance Tracker",
+  "skills": ["budget-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

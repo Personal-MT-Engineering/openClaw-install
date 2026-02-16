@@ -1,0 +1,10 @@
+{
+  "name": "049-thesis-writing-coach",
+  "title": "Thesis Writing Coach",
+  "skills": ["thesis-coach"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

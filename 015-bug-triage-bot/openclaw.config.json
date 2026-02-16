@@ -1,0 +1,10 @@
+{
+  "name": "015-bug-triage-bot",
+  "title": "Bug Priority Assignment Bot",
+  "skills": ["bug-triage"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

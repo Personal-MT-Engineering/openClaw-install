@@ -1,0 +1,10 @@
+{
+  "name": "083-meal-planner",
+  "title": "Meal Planner & Grocery List",
+  "skills": ["meal-planner"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

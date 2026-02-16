@@ -1,0 +1,10 @@
+{
+  "name": "005-meeting-notes-summarizer",
+  "title": "Meeting Transcript Summarizer",
+  "skills": ["meeting-summarizer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

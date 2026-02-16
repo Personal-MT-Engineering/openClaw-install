@@ -1,0 +1,10 @@
+{
+  "name": "044-research-paper-summarizer",
+  "title": "Literature Review Assistant",
+  "skills": ["research-summarizer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "089-writing-assistant",
+  "title": "Long-Form Writing Editor",
+  "skills": ["writing-assistant"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

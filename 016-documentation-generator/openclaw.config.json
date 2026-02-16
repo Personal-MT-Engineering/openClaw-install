@@ -1,0 +1,10 @@
+{
+  "name": "016-documentation-generator",
+  "title": "API & Code Docs Generator",
+  "skills": ["docs-generator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "058-subscription-manager",
+  "title": "SaaS Subscription Tracker",
+  "skills": ["subscription-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

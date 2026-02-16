@@ -1,0 +1,38 @@
+# OpenClaw - Test Coverage Analyzer
+services:
+  openclaw:
+    build: .
+    container_name: openclaw-022-test-coverage-reporter
+    env_file: .env
+    ports:
+      - "18789:18789"
+      - "18790:18790"
+      - "6080:6080"
+      - "5900:5900"
+      - "9050:9050"
+    volumes:
+      - openclaw-data:/home/node/.openclaw
+      - openclaw-workspace:/home/node/.openclaw/workspace
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 16G
+        reservations:
+          cpus: "2"
+          memory: 4G
+    shm_size: 2g
+    restart: unless-stopped
+    init: true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:18789"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+volumes:
+  openclaw-data:
+    driver: local
+  openclaw-workspace:
+    driver: local

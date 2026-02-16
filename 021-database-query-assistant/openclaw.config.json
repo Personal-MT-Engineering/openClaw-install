@@ -1,0 +1,10 @@
+{
+  "name": "021-database-query-assistant",
+  "title": "Natural Language DB Query",
+  "skills": ["db-query-assistant"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

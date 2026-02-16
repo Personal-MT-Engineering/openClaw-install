@@ -1,0 +1,10 @@
+{
+  "name": "067-escalation-manager",
+  "title": "SLA Escalation Manager",
+  "skills": ["escalation-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

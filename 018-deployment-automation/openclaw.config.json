@@ -1,0 +1,10 @@
+{
+  "name": "018-deployment-automation",
+  "title": "Chat-Driven Deployment",
+  "skills": ["deploy-bot"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

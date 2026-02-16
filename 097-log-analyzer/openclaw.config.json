@@ -1,0 +1,10 @@
+{
+  "name": "097-log-analyzer",
+  "title": "Application Log Anomaly Detector",
+  "skills": ["log-analyzer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

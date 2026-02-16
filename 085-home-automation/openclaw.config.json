@@ -1,0 +1,10 @@
+{
+  "name": "085-home-automation",
+  "title": "Smart Home Control Hub",
+  "skills": ["home-automation"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

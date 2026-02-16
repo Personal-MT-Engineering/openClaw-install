@@ -1,0 +1,10 @@
+{
+  "name": "037-seo-monitor",
+  "title": "SEO Ranking & Keyword Tracker",
+  "skills": ["seo-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

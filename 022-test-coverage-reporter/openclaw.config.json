@@ -1,0 +1,10 @@
+{
+  "name": "022-test-coverage-reporter",
+  "title": "Test Coverage Analyzer",
+  "skills": ["coverage-reporter"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

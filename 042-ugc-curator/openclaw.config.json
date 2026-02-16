@@ -1,0 +1,10 @@
+{
+  "name": "042-ugc-curator",
+  "title": "User-Generated Content Curator",
+  "skills": ["ugc-curator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

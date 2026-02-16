@@ -1,0 +1,10 @@
+{
+  "name": "011-policy-compliance-checker",
+  "title": "Policy Q&A Bot",
+  "skills": ["policy-compliance"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

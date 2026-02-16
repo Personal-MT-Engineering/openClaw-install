@@ -1,0 +1,10 @@
+{
+  "name": "064-ip-portfolio-tracker",
+  "title": "Intellectual Property Tracker",
+  "skills": ["ip-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "020-code-snippet-library",
+  "title": "Team Code Snippet Library",
+  "skills": ["snippet-library"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

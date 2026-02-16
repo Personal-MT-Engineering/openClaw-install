@@ -1,0 +1,10 @@
+{
+  "name": "032-telemedicine-prep",
+  "title": "Telemedicine Visit Prep",
+  "skills": ["telemedicine-prep"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

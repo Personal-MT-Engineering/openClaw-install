@@ -1,0 +1,10 @@
+{
+  "name": "066-faq-support-bot",
+  "title": "Multi-Channel FAQ Bot",
+  "skills": ["faq-bot"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "069-knowledge-base-updater",
+  "title": "Knowledge Base Auto-Updater",
+  "skills": ["kb-updater"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

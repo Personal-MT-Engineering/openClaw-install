@@ -1,0 +1,10 @@
+{
+  "name": "001-email-triage-assistant",
+  "title": "Email Triage & Auto-Response",
+  "skills": ["email-triage"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

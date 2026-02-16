@@ -1,0 +1,10 @@
+{
+  "name": "059-contract-reviewer",
+  "title": "Contract Clause Risk Analyzer",
+  "skills": ["contract-reviewer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "013-code-review-assistant",
+  "title": "PR Code Review Bot",
+  "skills": ["code-reviewer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

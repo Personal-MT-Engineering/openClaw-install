@@ -1,0 +1,10 @@
+{
+  "name": "024-git-workflow-enforcer",
+  "title": "Git Convention Enforcer",
+  "skills": ["git-enforcer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

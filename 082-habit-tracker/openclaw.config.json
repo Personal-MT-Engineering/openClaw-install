@@ -1,0 +1,10 @@
+{
+  "name": "082-habit-tracker",
+  "title": "Daily Habit Streak Tracker",
+  "skills": ["habit-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "035-community-manager",
+  "title": "Discord/Slack Community Manager",
+  "skills": ["community-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

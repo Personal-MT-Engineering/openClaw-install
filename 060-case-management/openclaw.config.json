@@ -1,0 +1,10 @@
+{
+  "name": "060-case-management",
+  "title": "Legal Case & Deadline Tracker",
+  "skills": ["case-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

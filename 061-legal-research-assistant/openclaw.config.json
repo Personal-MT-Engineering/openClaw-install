@@ -1,0 +1,10 @@
+{
+  "name": "061-legal-research-assistant",
+  "title": "Legal Research & Case Law Finder",
+  "skills": ["legal-researcher"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

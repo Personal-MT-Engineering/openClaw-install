@@ -1,0 +1,10 @@
+{
+  "name": "010-visitor-check-in",
+  "title": "Visitor Check-In & Notification",
+  "skills": ["visitor-checkin"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

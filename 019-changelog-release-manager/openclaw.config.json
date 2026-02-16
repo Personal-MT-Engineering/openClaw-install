@@ -1,0 +1,10 @@
+{
+  "name": "019-changelog-release-manager",
+  "title": "Changelog & Release Manager",
+  "skills": ["release-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "004-expense-tracker",
+  "title": "Receipt Scanning Expense Tracker",
+  "skills": ["expense-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

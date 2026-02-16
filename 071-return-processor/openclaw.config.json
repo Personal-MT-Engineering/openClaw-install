@@ -1,0 +1,10 @@
+{
+  "name": "071-return-processor",
+  "title": "Return & Refund Processor",
+  "skills": ["return-processor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

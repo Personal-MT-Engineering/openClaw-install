@@ -1,0 +1,10 @@
+{
+  "name": "052-expense-categorizer",
+  "title": "Bank Transaction Categorizer",
+  "skills": ["expense-categorizer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

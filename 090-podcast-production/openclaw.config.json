@@ -1,0 +1,10 @@
+{
+  "name": "090-podcast-production",
+  "title": "Podcast Production Assistant",
+  "skills": ["podcast-assistant"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

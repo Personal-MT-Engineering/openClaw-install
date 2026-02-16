@@ -1,0 +1,10 @@
+{
+  "name": "036-influencer-outreach",
+  "title": "Influencer Discovery & Outreach",
+  "skills": ["influencer-outreach"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

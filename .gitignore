@@ -1,0 +1,24 @@
+# Environment files (contain secrets)
+.env
+!.env.example
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generator script (one-time use)
+_generate_all.sh
+
+# Logs
+*.log

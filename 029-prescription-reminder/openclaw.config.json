@@ -1,0 +1,10 @@
+{
+  "name": "029-prescription-reminder",
+  "title": "Medication Adherence Reminder",
+  "skills": ["prescription-reminder"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "056-payroll-calculator",
+  "title": "Payroll Calculation Assistant",
+  "skills": ["payroll-calculator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

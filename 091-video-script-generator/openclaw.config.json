@@ -1,0 +1,10 @@
+{
+  "name": "091-video-script-generator",
+  "title": "Video Script & Storyboard Gen",
+  "skills": ["video-script-gen"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "087-fitness-coach",
+  "title": "Fitness Coach & Workout Planner",
+  "skills": ["fitness-coach"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

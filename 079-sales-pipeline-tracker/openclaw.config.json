@@ -1,0 +1,10 @@
+{
+  "name": "079-sales-pipeline-tracker",
+  "title": "Sales Pipeline Tracker",
+  "skills": ["pipeline-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

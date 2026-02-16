@@ -1,0 +1,10 @@
+{
+  "name": "078-product-review-aggregator",
+  "title": "Product Review Insights Engine",
+  "skills": ["review-aggregator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

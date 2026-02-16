@@ -1,0 +1,10 @@
+{
+  "name": "054-tax-prep-assistant",
+  "title": "Tax Document Organizer",
+  "skills": ["tax-prep"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

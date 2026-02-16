@@ -1,0 +1,10 @@
+{
+  "name": "074-inventory-monitor",
+  "title": "Inventory Level Monitor",
+  "skills": ["inventory-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

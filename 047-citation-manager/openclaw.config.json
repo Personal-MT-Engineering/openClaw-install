@@ -1,0 +1,10 @@
+{
+  "name": "047-citation-manager",
+  "title": "Citation & Bibliography Manager",
+  "skills": ["citation-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "009-timesheet-reporter",
+  "title": "Timesheet Collection & Reporting",
+  "skills": ["timesheet-reporter"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

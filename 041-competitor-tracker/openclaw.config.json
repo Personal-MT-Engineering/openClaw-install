@@ -1,0 +1,10 @@
+{
+  "name": "041-competitor-tracker",
+  "title": "Competitor Activity Tracker",
+  "skills": ["competitor-tracker"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

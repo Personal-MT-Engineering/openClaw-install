@@ -1,0 +1,10 @@
+{
+  "name": "080-product-catalog-assistant",
+  "title": "Product Q&A & Recommendation Bot",
+  "skills": ["catalog-assistant"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

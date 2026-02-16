@@ -1,0 +1,42 @@
+# ============================================================================
+# OpenClaw - Base Docker Compose Configuration
+# Extend this in per-use-case docker-compose.yml files
+# ============================================================================
+
+services:
+  openclaw:
+    build: .
+    container_name: openclaw
+    env_file: .env
+    ports:
+      - "18789:18789"   # OpenClaw Gateway
+      - "18790:18790"   # OpenClaw Bridge
+      - "6080:6080"     # noVNC web desktop
+      - "5900:5900"     # VNC direct access
+      - "9050:9050"     # Tor SOCKS proxy
+    volumes:
+      - openclaw-data:/home/node/.openclaw
+      - openclaw-workspace:/home/node/.openclaw/workspace
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 16G
+        reservations:
+          cpus: "2"
+          memory: 4G
+    shm_size: 2g
+    restart: unless-stopped
+    init: true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:18789"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+volumes:
+  openclaw-data:
+    driver: local
+  openclaw-workspace:
+    driver: local

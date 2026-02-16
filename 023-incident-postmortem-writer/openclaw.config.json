@@ -1,0 +1,10 @@
+{
+  "name": "023-incident-postmortem-writer",
+  "title": "Postmortem Template Generator",
+  "skills": ["postmortem-writer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

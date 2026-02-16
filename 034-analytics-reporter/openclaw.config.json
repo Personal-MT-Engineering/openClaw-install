@@ -1,0 +1,10 @@
+{
+  "name": "034-analytics-reporter",
+  "title": "Social Analytics Reporter",
+  "skills": ["analytics-reporter"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

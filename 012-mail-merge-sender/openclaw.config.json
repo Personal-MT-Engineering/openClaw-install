@@ -1,0 +1,10 @@
+{
+  "name": "012-mail-merge-sender",
+  "title": "Personalized Bulk Email Sender",
+  "skills": ["mail-merge"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

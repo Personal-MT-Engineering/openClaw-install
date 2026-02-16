@@ -1,0 +1,10 @@
+{
+  "name": "084-travel-planner",
+  "title": "Travel Itinerary Planner",
+  "skills": ["travel-planner"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

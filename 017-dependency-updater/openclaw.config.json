@@ -1,0 +1,10 @@
+{
+  "name": "017-dependency-updater",
+  "title": "Dependency Version Monitor",
+  "skills": ["dependency-updater"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

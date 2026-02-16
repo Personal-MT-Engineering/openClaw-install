@@ -1,0 +1,10 @@
+{
+  "name": "045-quiz-generator",
+  "title": "Automated Quiz Generator",
+  "skills": ["quiz-generator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

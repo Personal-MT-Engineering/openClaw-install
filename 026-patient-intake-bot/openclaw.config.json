@@ -1,0 +1,10 @@
+{
+  "name": "026-patient-intake-bot",
+  "title": "Pre-Visit Intake Form Bot",
+  "skills": ["patient-intake"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

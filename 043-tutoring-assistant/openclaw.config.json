@@ -1,0 +1,10 @@
+{
+  "name": "043-tutoring-assistant",
+  "title": "Personalized AI Tutor",
+  "skills": ["ai-tutor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

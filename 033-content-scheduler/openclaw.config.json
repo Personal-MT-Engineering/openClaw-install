@@ -1,0 +1,10 @@
+{
+  "name": "033-content-scheduler",
+  "title": "Multi-Platform Content Scheduler",
+  "skills": ["content-scheduler"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

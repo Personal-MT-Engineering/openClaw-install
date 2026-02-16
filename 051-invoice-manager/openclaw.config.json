@@ -1,0 +1,10 @@
+{
+  "name": "051-invoice-manager",
+  "title": "Invoice Generation & Tracking",
+  "skills": ["invoice-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

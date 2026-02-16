@@ -1,0 +1,10 @@
+{
+  "name": "099-container-orchestrator",
+  "title": "Docker Container Lifecycle Mgr",
+  "skills": ["container-manager"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

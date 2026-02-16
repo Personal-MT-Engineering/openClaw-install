@@ -1,0 +1,10 @@
+{
+  "name": "003-document-generator",
+  "title": "Template-Based Document Generator",
+  "skills": ["document-generator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

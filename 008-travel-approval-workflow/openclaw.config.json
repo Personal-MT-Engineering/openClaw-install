@@ -1,0 +1,10 @@
+{
+  "name": "008-travel-approval-workflow",
+  "title": "Travel Request Approval Workflow",
+  "skills": ["travel-approval"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

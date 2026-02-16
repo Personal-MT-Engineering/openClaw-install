@@ -1,0 +1,10 @@
+{
+  "name": "014-cicd-monitor",
+  "title": "CI/CD Pipeline Monitor",
+  "skills": ["cicd-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

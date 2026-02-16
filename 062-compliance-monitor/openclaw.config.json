@@ -1,0 +1,10 @@
+{
+  "name": "062-compliance-monitor",
+  "title": "Regulatory Change Monitor",
+  "skills": ["compliance-monitor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "025-appointment-scheduler",
+  "title": "Patient Appointment Scheduler",
+  "skills": ["appointment-scheduler"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "081-personal-assistant",
+  "title": "All-in-One Personal Assistant",
+  "skills": ["personal-assistant"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

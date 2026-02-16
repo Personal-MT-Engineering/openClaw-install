@@ -1,0 +1,10 @@
+{
+  "name": "027-medical-report-summarizer",
+  "title": "Lab Result Summarizer",
+  "skills": ["medical-summarizer"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

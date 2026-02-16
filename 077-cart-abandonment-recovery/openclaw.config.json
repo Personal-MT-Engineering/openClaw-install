@@ -1,0 +1,10 @@
+{
+  "name": "077-cart-abandonment-recovery",
+  "title": "Cart Abandonment Recovery",
+  "skills": ["cart-recovery"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "050-study-group-coordinator",
+  "title": "Study Group Coordinator",
+  "skills": ["study-coordinator"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

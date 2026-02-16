@@ -1,0 +1,10 @@
+{
+  "name": "048-language-learning-bot",
+  "title": "Language Learning Practice Bot",
+  "skills": ["language-tutor"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}

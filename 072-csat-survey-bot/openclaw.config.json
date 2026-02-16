@@ -1,0 +1,10 @@
+{
+  "name": "072-csat-survey-bot",
+  "title": "CSAT & NPS Survey Bot",
+  "skills": ["csat-bot"],
+  "cron": [],
+  "hooks": {
+    "onStart": [],
+    "onMessage": []
+  }
+}
