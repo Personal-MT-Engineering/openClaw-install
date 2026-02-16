@@ -24,31 +24,21 @@ source "${SHARED_DIR}/lib-plugins.sh"
 USE_CASE_NAME="017-dependency-updater"
 USE_CASE_TITLE="Dependency Version Monitor"
 
+# Services recommended for this use case (pre-selected in wizard)
+RECOMMENDED_SERVICES=(
+    "github-cli"
+    "browser"
+    "cron"
+    "slack"
+    "memory"
+    "logger"
+)
+
 # ---- Use-case-specific wizard ----
 wizard_use_case() {
     header "Use Case: ${USE_CASE_TITLE}"
     log "Configuring use-case-specific settings..."
-    # Use-case-specific configuration prompts can be added here
-}
-
-# ---- Use-case-specific dependencies ----
-install_use_case_deps() {
-    log "Installing use-case-specific dependencies..."
-    # Install GitHub CLI
-    if ! command -v gh &>/dev/null; then
-        log "Installing GitHub CLI..."
-        case "$PKG_MGR" in
-            apt)
-                curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-                echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-                sudo apt-get update && sudo apt-get install -y gh
-                ;;
-            dnf) sudo dnf install -y gh ;;
-            brew) brew install gh ;;
-            pacman) sudo pacman -Sy --noconfirm github-cli ;;
-            *) log "Please install gh CLI manually: https://cli.github.com" ;;
-        esac
-    fi
+    # Additional use-case prompts can be added here
 }
 
 # ---- Install use-case skills ----
@@ -65,7 +55,6 @@ apply_use_case_config() {
     mkdir -p "${config_dir}"
     if [[ -f "${SCRIPT_DIR}/openclaw.config.json" ]]; then
         if [[ -f "${config_dir}/openclaw.json" ]]; then
-            # Merge configs
             if command -v jq &>/dev/null; then
                 jq -s '.[0] * .[1]' "${config_dir}/openclaw.json" "${SCRIPT_DIR}/openclaw.config.json" > /tmp/merged-config.json
                 mv /tmp/merged-config.json "${config_dir}/openclaw.json"
@@ -95,6 +84,11 @@ main() {
 
     if [[ -n "${ENV_FILE_INPUT:-}" ]]; then
         load_env_file "${ENV_FILE_INPUT}"
+        load_services_from_env
+        # If no OPENCLAW_SERVICES in env, use recommended defaults
+        if [[ ${#SELECTED_SERVICES[@]} -eq 0 ]]; then
+            SELECTED_SERVICES=("${RECOMMENDED_SERVICES[@]}")
+        fi
     else
         wizard_ai_provider
         wizard_channels
@@ -103,17 +97,18 @@ main() {
         wizard_tor
         wizard_gateway
         wizard_use_case
+        wizard_services RECOMMENDED_SERVICES
     fi
 
     generate_env
+    append_services_to_env
 
     if [[ "$INSTALL_MODE" == "docker" ]]; then
         ensure_docker
         docker_build_and_run
     else
         run_local_install
-        install_use_case_deps
-        install_all_plugins_and_skills
+        install_selected_services
         install_use_case_skills
         apply_use_case_config
         start_local_services

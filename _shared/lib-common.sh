@@ -17,6 +17,9 @@ ENV_FILE=""
 ENV_FILE_INPUT=""
 INSTALL_MODE=""   # "docker" or "local"
 
+# Selected services (populated by wizard_services)
+declare -a SELECTED_SERVICES=()
+
 # ---- Logging ----
 log()     { echo -e "${GREEN}[OpenClaw]${NC} $*"; }
 warn()    { echo -e "${YELLOW}[OpenClaw]${NC} $*"; }
@@ -79,6 +82,79 @@ menu_select() {
         fi
         echo -e "${RED}Invalid choice. Try again.${NC}"
     done
+}
+
+# ---- Interactive Checklist (multi-select with toggle) ----
+# Usage: checklist_select "Title" labels_array selected_array
+#   labels_array:   ("Browser automation" "Gmail integration" ...)
+#   selected_array: ("true" "false" "true" ...)   # pre-selected state
+# After return, CHECKLIST_RESULT contains ("true"/"false" ...) for each item
+declare -a CHECKLIST_RESULT=()
+
+checklist_select() {
+    local title="$1"
+    local -n _labels=$2
+    local -n _defaults=$3
+    local count=${#_labels[@]}
+
+    # Copy defaults into working state
+    local -a state=()
+    for i in "${!_defaults[@]}"; do
+        state+=("${_defaults[$i]}")
+    done
+
+    while true; do
+        echo ""
+        echo -e "${CYAN}${BOLD}${title}${NC}"
+        echo -e "${BOLD}  Toggle a service by entering its number. Press Enter when done.${NC}"
+        echo ""
+        for i in "${!_labels[@]}"; do
+            local marker
+            if [[ "${state[$i]}" == "true" ]]; then
+                marker="${GREEN}[x]${NC}"
+            else
+                marker="[ ]"
+            fi
+            printf "  ${CYAN}%2d)${NC} %b %s\n" "$((i + 1))" "$marker" "${_labels[$i]}"
+        done
+
+        echo ""
+        echo -en "${BOLD}  Toggle [1-${count}], 'a' = select all, 'n' = select none, Enter = confirm:${NC} "
+        local input
+        read -r input
+
+        # Empty input = done
+        if [[ -z "$input" ]]; then
+            break
+        fi
+
+        # Select all
+        if [[ "$input" == "a" || "$input" == "A" ]]; then
+            for i in "${!state[@]}"; do state[$i]="true"; done
+            continue
+        fi
+
+        # Select none
+        if [[ "$input" == "n" || "$input" == "N" ]]; then
+            for i in "${!state[@]}"; do state[$i]="false"; done
+            continue
+        fi
+
+        # Toggle single item
+        if [[ "$input" =~ ^[0-9]+$ ]] && (( input >= 1 && input <= count )); then
+            local idx=$((input - 1))
+            if [[ "${state[$idx]}" == "true" ]]; then
+                state[$idx]="false"
+            else
+                state[$idx]="true"
+            fi
+        else
+            echo -e "  ${RED}Invalid input. Enter a number, 'a', 'n', or press Enter.${NC}"
+        fi
+    done
+
+    # Write results
+    CHECKLIST_RESULT=("${state[@]}")
 }
 
 # ---- CLI Argument Parsing ----
