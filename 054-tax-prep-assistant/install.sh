@@ -20,6 +20,7 @@ source "${SHARED_DIR}/lib-wizard.sh"
 source "${SHARED_DIR}/lib-env-generator.sh"
 source "${SHARED_DIR}/lib-env-loader.sh"
 source "${SHARED_DIR}/lib-plugins.sh"
+source "${SHARED_DIR}/lib-healthcheck.sh"
 
 USE_CASE_NAME="054-tax-prep-assistant"
 USE_CASE_TITLE="Tax Document Organizer"
@@ -98,10 +99,12 @@ main() {
         wizard_gateway
         wizard_use_case
         wizard_services RECOMMENDED_SERVICES
+        wizard_healthcheck
     fi
 
     generate_env
     append_services_to_env
+    append_healthcheck_to_env
 
     if [[ "$INSTALL_MODE" == "docker" ]]; then
         ensure_docker
@@ -113,6 +116,9 @@ main() {
         apply_use_case_config
         start_local_services
     fi
+
+    register_with_healthcheck
+    ensure_health_endpoint
 
     print_final_status "${USE_CASE_TITLE}"
 }
